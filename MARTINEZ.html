@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fushion & Fashion</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+body, html {height: 100%}
+body,h1 {font-family: "Times New Roman",serif}
+body, h2,h3,h4,h5,h6 { font-family: "Garamond", serif}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://www.papercitymag.com/wp-content/uploads/2017/09/reformation1-1024x683.jpg");
+  min-height: 90%;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">HOME</a>
+    <a href="#menu" class="w3-bar-item w3-button">MENU</a>
+    <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#myMap" class="w3-bar-item w3-button">CONTACT</a>
+  </div>
+</div>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-tag w3-xlarge w3-animate-right" style="background:#7bcff0">Open from 8am to 7pm</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-black w3-hide-small w3-animate-top" style="font-size:99px">Fusion & Fashion</span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>thin<br>CRUST PIZZA</b></span>
+    <p><a href="#menu" class="w3-button w3-xxlarge w3-animate-left" style="background:#96f08e"> Products</a></p>
+  </div>
+</header>
+
+<!-- Product Container -->
+<div class="w3-container w3-padding-64 w3-xxlarge" style="background:#cdd4db" id="menu">
+  <div class="w3-content">
+  
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Fushion & Fashion's Products</h1>
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-black">Women Clothing</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-black">Kid Clothing</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-black">Men Clothing</div>
+      </a>
+    </div>
+
+    <div id="Pizza" class="w3-container menu w3-padding-32 w3-white">
+     <img src="https://img.ltwebstatic.com/images3_pi/2021/11/19/1637306771b7eacbb06d0da2d017e8d0cbab8d6dd1.webp" style="width:20%">
+      <h1><b>Solid Top & Plaid Print Cami Dress</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Php <del>579</del> <ins> 350</ins></span></h1>
+      <p class="w3-text-grey"><h3>Available Sizes: XS,Small & Medium<br>Available colors: white and black</h3></p>
+      <hr>
+   
+      <img src="https://img.ltwebstatic.com/images3_pi/2022/03/23/16480295692b6d062ad9f25a8fb4ff34363060bc17_thumbnail_600x.webp" style="width: 20%">
+      <h1><b>Lace Up Backless Split Thigh Cami Dress</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Php 499</span></h1>
+      <p class="w3-text-grey"><h3>Available Sizes: XS,Small & Medium<br> Available Colors: Black, Red, Tan and White<h3></p>
+      <hr>
+      
+      <img src="https://img.ltwebstatic.com/images3_pi/2022/03/09/16467951407cc5378135267cb198921302bad5b7ca_thumbnail_220x293.webp" style="width:20%">
+      <h1><b>Floral Print Square Neck Ruffle Hem Dress</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Php <del>240</del> <ins> 100</ins></span></h1>
+      <p class="w3-text-grey"><h3>Available Sizes: Small, Medium & Large<br> Available colors: Yellow, Pink and Green</h3></p>
+      <hr>
+
+      <img src="https://tdmercado.com/wp-content/uploads/2019/05/Floral-Embroidered-Backless-Slit-Hem-Halter-Maxi-Dresses1.jpg" style="width:20%">
+      <h1><b>Tied Backless Slit Hem Dress</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Php 264</span></h1>
+      <p class="w3-text-grey"><h3>Available Sizes: XS, Small, Medium & Large<br>Available colors: Black, White and Tan</h3></p>
+      <hr>
+<img src="https://img.ltwebstatic.com/images3_pi/2022/11/21/16690141398a06be780e9ef7b6304e573ddf2c05a0_thumbnail_405x552.webp" style="width:20%">
+      <h1><b>Mock Neck Ribbed Knit Tee & Pants</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Php500</span></h1>
+      <p class="w3-text-grey"><h3>Available Sizes: Small & Medium<br> Available colors: White, Black, Grey and Maroon</h3></p>
+      <hr>
+
+      <img src="https://fashione-shanone.com/7211/corset-belt-sweatshirt-dress.jpg" style="width:20%">
+      <h1><b>Solid Lace Up Corset Waist High Low Hem Sweatshirt Dress</b> <span class="w3-tag w3-grey w3-round">New</span><span class="w3-right w3-tag w3-dark-grey w3-round">Php 300</span></h1>
+      <p class="w3-text-grey"><h3>Available Sizes: XS, Small & Medium <br> Available colors: Black, White, Yellow, Pink and Red</h3></p>
+    </div>
+
+    <div id="Pasta" class="w3-container menu w3-padding-32 w3-white">
+      <img src="https://cf.shopee.ph/file/3792b04fbee21e3dd73a77d1717ff5fb" style="width:20%">
+      <h1><b>Baby Rompers</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Php 399</span></h1>
+      <p class="w3-text-grey"><h3> For 9 months - 1 yr old<br> Available colors: Yellow,White & Pink</h3></p>
+      <hr>
+   
+      <img src="https://img.ltwebstatic.com/images3_pi/2022/06/27/165629908154d18097210ad09f31ccb406f09f953b_thumbnail_750x.webp" style="width: 20%">
+      <h1><b>Baby Tropical & Letter Graphic Tee & Shorts</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Php <del>539</del><ins> 499</ins></span></h1>
+      <p class="w3-text-grey"><h3>Available Sizes: XS,Small & Medium<br> Available colors: Black, White and Green<h3></p>
+      <hr>
+      
+      <img src="https://img.ltwebstatic.com/images3_pi/2022/05/16/16526651982ba4639c4825d6fef228c6031dba3533.webp" style="width:20%">
+      <h1><b>Baby Rainbow Embroidery Ruffle Hem Corduroy Overall</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Php 299</span></h1>
+      <p class="w3-text-grey"><h3> 1-2 yrs old<br> Available colors: Rust, Olive Green, Yellow and Pink</h3></p>
+      <hr>
+
+      <img src="https://img.ltwebstatic.com/images3_pi/2022/03/22/164791502949933bc8d67411b18243aafa6dc2834b_thumbnail_600x.webp" style="width:20%">
+      <h1><b>Baby Tie Back Layered Gown Dress</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Php 264</span></h1>
+      <p class="w3-text-grey"><h3>Available Sizes: XS, Small, Medium & Large<br> Available Colors: Pink, Maroon and Blue</h3></p>
+      <hr>
+<img src="https://img.ltwebstatic.com/images3_pi/2022/01/11/1641872833b1dbd3f9c8acdff23a85e0ba7d1d4d8c.webp" style="width:20%">
+      <h1><b>Baby Ruffle Trim Button Front Belted Dresss</b>New<span class="w3-right w3-tag w3-dark-grey w3-round">Php500</span></h1>
+      <p class="w3-text-grey"><h3>Available Sizes: Small & Medium<br> Available colors: Tan, White, Gray and Sky Blue</h3></p>
+      <hr>
+
+      <img src="https://cf.shopee.ph/file/bcecd7c8c27269be206c91998c3c6fa7" style="width:20%">
+      <h1><b>Baby Boy Tuxedo Vest Jumpsuit</b> <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-dark-grey w3-round">Php 300</span></h1>
+      <p class="w3-text-grey"><h3>Available Sizes: XS, Small & Medium<br> Available colors: Maroon and Black</h3></p>
+    </div>
+
+
+    <div id="Starter" class="w3-container menu w3-padding-32 w3-white">
+      <img src="https://img.ltwebstatic.com/images3_pi/2022/12/05/1670226664995b42604bf22b2829dfc80b3a2b7235.webp" style="width:20%">
+      <h1><b>Men 1pc Zip Up Bomber Jacket</b> <span class="w3-tag w3-grey w3-round">On Sale</span><span class="w3-right w3-tag w3-dark-grey w3-round">Php 356</span></h1>
+      <p class="w3-text-grey"><h3>Available Sizes: Small, Medium & Large <br> Available in Green, White and Red</h3></p>
+      <hr>
+   
+      <img src="https://cdn.shopify.com/s/files/1/0438/4433/7828/products/187501.jpg?v=1637140594" style="width: 20%">
+      <h1><b>Men Plaid Print Suit Pants</b> <span class="w3-right w3-tag w3-dark-grey w3-round"> Php <del>327</del><ins> 200</ins></span></h1>
+      <p class="w3-text-grey"><h3>Available Sizes: Small, Medium & Large<br>Available colors: Black and Gray</h3></p>
+      <hr>
+      
+      <img src="https://img.ltwebstatic.com/images3_pi/2022/11/25/166935381838172c3f183ab0fd017eb9d3bd455f06.webp" style="width:20%">
+      <h1><b>Men Solid Knot Front Blazer & Suit Pants</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Php 639</span></h1>
+      <p class="w3-text-grey"><h3>Available Sizes: Small, Medium & Large<br> Available colors: Gray & Black</h3></p>
+      <hr>
+      
+      <img src="https://img.ltwebstatic.com/images3_pi/2021/04/06/1617699494ccd0b884d54fea50890eb0bf2bfdd5cf_thumbnail_600x.webp" style="width:20%">
+      <h1><b>Men Random Floral Print Button Up Shirt Without Tee</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Php 399</span></h1>
+      <p class="w3-text-grey"><h3>Available Sizes: Small, Medium & Large<br>Available colors: Black, Red and Green</h3></p>
+    </div><br>
+
+  </div>
+</div>
+
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About</h1>
+    <p>Fushion & Fashion is a global fashion and lifestyle e-retailer committed to making the beauty of fashion accessible to all. 
+ We use on-demand manufacturing technology to connect suppliers to our agile supply chain, reducing inventory waste and enabling us to deliver
+ a variety of affordable products to customers around the world. From our global offices, we reach customers in more than 50 countries.</p>
+    <p><strong>Our Mission</strong> Our mission is to serve as a leader in the industry and bring fashion into the modern era. We employ cutting-edge technologies and processes in our design and sourcing to stay well-informed of what is in-demand by consumers, produce goods in a timely manner and deliver the products quickly to anywhere in the world.
+ By developing proprietary logistics and ecommerce technology, we are disrupting the fashion space and improving outcomes for manufacturers, suppliers and consumers.</p>
+<p><strong>Our Story</strong> We believe that the beauty of fashion should be accessible to everyone, not just the privileged few. When the company was founded in 2020,
+ we noticed that fashion companies had to choose between offering choice or reducing inventory pressure and waste. So, we set out
+ to change that by leading the development of alternative processes and technologies to bring fashion into the future.</p>
+    
+   
+    <h1><b>Opening Hours</b></h1>
+    
+    <div class="w3-row">
+      <div class="w3-col s6">
+        <p>Monday to Friday - 8:00 A.M to 7:00 P.M </p>
+        
+      </div>
+      <div class="w3-col s6">
+       
+        <p>Saturday 10:00 - 23:00</p>
+        <p>Sunday Closed</p>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;" id="myMap">
+
+<!-- Contact -->
+<div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact</h1>
+    <p>Find us at N. Bacalso St. Avenue <br> Or call us at 05050515-122330 </p>
+    <p><span class="w3-tag">FYI!</span> We also offer customizing your own outfit. We understand your needs and we will give you the best outfit to your desire.</p>
+    <p class="w3-xxlarge"><strong>To make an appointment</strong> , you can leave a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-block" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">Fushion & Fashion</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
